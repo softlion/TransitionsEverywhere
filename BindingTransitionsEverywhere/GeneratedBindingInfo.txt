@@ -1,0 +1,8 @@
+Binding for:
+com.andkulikov:transitionseverywhere:1.7.0
+
+Dependencies:
+
+transitionseverywhere-1.7.0.aar,    Path=C:\Users\benja\.gradle\caches\modules-2\files-2.1\com.andkulikov\transitionseverywhere\1.7.0\ef494c64a1984f0a40ba41888bf0272682e37f4b\transitionseverywhere-1.7.0.aar
+	support-annotations-22.2.1.jar,    Path=C:\Dev\android-sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar
+	support-v4-22.2.1.aar,    Path=C:\Dev\android-sdk\extras\android\m2repository\com\android\support\support-v4\22.2.1\support-v4-22.2.1.aar

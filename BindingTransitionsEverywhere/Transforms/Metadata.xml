@@ -1,0 +1,19 @@
+<metadata>
+  <!-- Implementation of an interface method, or override of a method: a parameter or return type must be of the original type instead of a derived class (permitted in java) -->
+  <!--<attr name="type" path="/api/package[@name='com.google.android.exoplayer2.upstream.cache']/class[@name='CacheSpan']/method[@name='compareTo']/parameter">java.lang.Object</attr>
+  <attr name="type" path="/api/package[@name='com.google.android.exoplayer2.drm']/class[@name='DrmInitData']/method[@name='compare']/parameter">java.lang.Object</attr>
+  <attr name="return" path="/api/package[@name='com.google.android.exoplayer2.text.cea']/class[@name='CeaDecoder']/method[@name='dequeueInputBuffer' and count(parameter)=0]">java.lang.Object</attr>-->
+
+  <!-- Remove method (abstract or interface) already implemented because it uses derived parameters -->
+  <remove-node path="/api/package[@name='com.transitionseverywhere.utils']/class[@name='FloatProperty']" />
+  <remove-node path="/api/package[@name='com.transitionseverywhere.utils']/class[@name='FloatPropertyInvoker']" />
+  <remove-node path="/api/package[@name='com.transitionseverywhere.utils']/class[@name='IntProperty']" />
+  <remove-node path="/api/package[@name='com.transitionseverywhere.utils']/class[@name='IntPropertyInvoker']" />
+
+  <remove-node path="/api/package[@name='com.transitionseverywhere.utils']/class[@name='PointFProperty']" />
+  <remove-node path="/api/package[@name='com.transitionseverywhere.utils']/class[@name='MatrixUtils']" />
+  <remove-node path="/api/package[@name='com.transitionseverywhere.utils']/class[@name='RectEvaluator']" />
+
+  <remove-node path="/api/package[@name='com.transitionseverywhere']/class[@name='TransitionManager']/method[@name='setDefaultTransition' and count(parameter)=1 and parameter[1][@type='com.transitionseverywhere.Transition']]" />
+
+</metadata>
